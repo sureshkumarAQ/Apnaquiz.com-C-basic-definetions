@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>
+
+   </title>
+   <style>
+   .clsda{
+      background-color:#dff9fb ;
+      border:2px solid navy;
+      border-radius:15px;
+      padding-right:10px;
+      padding-left: 10px;
+      width: 250px;
+      display: none;
+      font-family: arial;
+      font-size: 15px;
+      color:navy
+   }
+   .clsdi{
+    background-color:#dff9fb ;
+      border:2px solid navy;
+      border-radius:15px;
+      padding-right:10px;
+      padding-left: 10px;
+      width: 250px;
+      font-family: arial;
+      font-size: 15px;
+      color:navy
+
+   }
+   #pq{
+     font-family: arial;
+     font-size: 18px;
+   }
+   #table{
+     color:navy;
+   }
+   #PD{
+     background-color: #dff9fb;
+     color: navy:
+     border:2px solid navy;
+     border-radius:15px;
+     padding-right:10px;
+     padding-left: 10px;
+     width: 250px;
+     font-family: arial;
+     font-size: 15px;
+     color:navy;
+
+   }
+   </style>
+ </head>
+ <body>
+  <div id="dq">
+    <p id="pq"> Q.1 What is <b>Format Specifier </b> in C programming language with example ? </p>
+  </div>
+  <h4>Ans.</h4>
+  <div id="da1" class="clsda">
+    <h3>Format Specifier :</h3>
+     <ol>
+       <li> <b> The Format Specifier </b> is a way to tell the compiler what type of data is in a variable during taking input and display output to the user </li>
+       <li> We need to use <b>Format Specifier </b> whether we are printing formated output with printf() or accepting input with scanf() . </li>
+       <li>It is a placeholder of variables.</li>
+       <li>Each <b>Format Specifier </b> must begin with modoul ( % ) sign.</li>
+     </ol>
+     <h4> Some of the most common % specifier that we can use in ANSIC are as follows : </h4>
+     <ol>
+      %c  :  A character<br>
+      %d   : A integer<br>
+      %f  :  Float<br>
+      %l : Long int<br>
+      %lf  : Double<br>
+      %Lf : Long double
+     </ol>
+  </div><br>
+  <button id="bq1"> Show/Hide</button>
+  <script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+  $("#bq1").click(function(){
+    $("#da1").slideToggle('slow');
+  });
+ });
+</script>
+<div id="dq">
+  <p id="pq"> Q.2 What is <b>escape sequence</b> in C programming language ? </p>
+</div>
+<h4>Ans.</h4>
+<div id="da2" class="clsda">
+   <ol>
+     <li><b>Escape sequence</b> are the special character the back slash ( \ ) symbol is considered an escape character because it's
+       cause an escape from the normal interpretation of a string so that the next character has special meaning .</li>
+     <li> It doesn't represent itself when used inside string literal or character.</li>
+     <li>It is composed of two or more character starting with backslash ( \ ) .</li>
+     <h4> Example :</h4>
+     <li> \a  :  Alarm or Beep <br>
+      \b  :  Backspace<br>
+      \f : Form Feed <br>
+      \n  : New Line <br>
+      \r  :  Carriage Return<br>
+      \t  :  Tab ( Horizontal ) <br>
+      \v  :  Vertical Tab <br>
+      \\  :  Backslash<br> </li>
+   </ol>
+</div><br>
+<button id="bq2"> Show/Hide</button>
+<script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq2").click(function(){
+  $("#da2").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.3 What is <b>Control statement </b>in C language? </p>
+</div>
+<h4>Ans.</h4>
+<div id="da3" class="clsda">
+  <h3>Control Statement :</h3>
+   <ol>
+     <li>A <b>Control statement </b>is a statement that determines whether other statements will be executed . </li>
+     <li><b>Control statements </b> enable us to specify the flow of program control; ie, the order in which the instructions in
+       a program must be executed. They make it possible to make decisions, to perform tasks repeatedly or to jump from one section of code to another.</li>
+     <li>It is composed of two or more character starting with backslash ( \ ) .</li>
+     <h4>There are four types of control statements in C :</h4>
+     <li>(i) Decision making statements<br>
+      (ii) Selection statements<br>
+      (iii) Iteration statements<br>
+      (iv Jump statements</li>
+   </ol>
+</div><br>
+<button id="bq3"> Show/Hide</button>
+<script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq3").click(function(){
+  $("#da3").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.4 What is <b>Decision Making Statement </b>or the if-else Statement in C ? </p>
+</div>
+<h4>Ans.</h4>
+<div id="da4" class="clsda">
+  <h3>Decision making statement :</h3>
+   <ol>
+     <li> <b>Decision Making Statements </b> in programming languages decides the direction of flow of program execution</li>
+     <li>In decision control statements (if-else and nested if), group of statements are executed when condition is true.  If 
+       condition is false, then else part statements are executed.</li>
+     <h4>There are 3 types of  <b>Decision Making </b>control statements in C language :</h4>
+     <li><b> i) if statements</b>
+      <h5>Syntax :</h5>
+      if(condition)<br>
+      {<br>
+        // code / statements<br>
+      }<br><br>
+    <b> ii)  if else statements</b>
+      <h5>Syntax :</h5>
+      if (condition)<br>
+      {<br>
+       // Executes this block <br>
+       // condition is true<br>
+      }<br>
+      else<br>
+    {<br>
+       // Executes this block if<br>
+       // condition is false<br>
+    }<br><br>
+    <b> iii)  nested if statements</b>
+  <h5>Syntax:</h5>
+  if (condition1) <br>
+{<br>
+   // Executes when condition1 is true<br>
+   if (condition2) <br>
+   {<br>
+      // Executes when condition2 is true<br>
+   }<br>
+}<br>
+</li>
+   </ol>
+</div><br>
+<button id="bq4"> Show/Hide</button>
+<script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq4").click(function(){
+  $("#da4").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.5 What is <b>Switch case statement</b> in C ?   </p>
+</div>
+<h4>Ans.</h4>
+<div id="da5" class="clsda">
+  <h3>Switch case statement :</h3>
+   <ol>
+     <li>A <b>Switch case statement</b>allows a variable to be tested against several values for equality. Each of these 
+      values is called a case. Once a matching case is found, its particular block of code is executed</li>
+     <li>The <b>Switch case statement</b> is a multiway branch statement. It provides an easy way to dispatch execution 
+      to different parts of code based on the value of the expression.</li>
+     <li>Switch is a control statement that allows a value to change control of execution.</li>
+     <h5>Syntax :</h5>
+     <p>
+       switch (n)<br>
+{<br>
+    case 1: // code to be executed if n = 1;<br>
+        break;<br>
+    case 2: // code to be executed if n = 2;<br>
+        break;<br>
+    default: // code to be executed if n doesn't match any cases<br>
+}<br>
+     </p>
+   </ol>
+</div><br>
+<button id="bq5"> Show/Hide</button>
+<script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq5").click(function(){
+  $("#da5").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.6 What are some rules for <b>Switch case statement</b> ?  </p>
+</div>
+<h4>Ans.</h4>
+<div id="da6" class="clsda">
+  <h3>Rules:</h3>
+   <ol>
+     <li>The expression in the switch can be a variable or an expression - but it must be an integer or a character.</li>
+     <li>Duplicate case values are not allowed.</li>
+     <li>The default statement is optional.Even if the switch case statement do not have a default statement,
+      it would run without any problem.</li>
+     <li>Case labels always end with a colon ( : ). Each of these cases is associated with a block.</li>
+     <li>The break statement is used to break the flow of control once a case block is executed. While it is optional
+       , without it, all subsequent cases after the matching case will also get executed. Consider the code below to get a clearer idea:</li>
+     <li>Nesting of <b>Switch case statement</b> are allowed, which means you can have <b>Switch case statement</b> inside
+       another switch. However nested <b>Switch case statement</b>should be avoided as it makes program more complex and less readable.</li>
+   </ol>
+</div><br>
+<button id="bq6"> Show/Hide </button>
+<script>
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq6").click(function(){
+  $("#da6").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.7 What are <b>loops </b>in C programming language ?  </p>
+</div>
+<h4>Ans.</h4>
+<div id="da7" class="clsda">
+  <h3>loops in C :</h3>
+   <ol>
+     <li>A <b>loop </b> executes the sequence of statements many time until the stated condition becomes false . A
+       loop consists of two parts, a body of a <b>loop </b> and a control statement.</li>
+     <li>In computer programming, a <b>loop </b> is a sequence of instructions that is repeated until a certain 
+      condition is reached. An operation is done, such as getting an item of data and changing it, and then some
+       condition is checked such as whether a counter has reached a prescribed number.</li>
+     <li>The purpose of loop is to repeat the same code a number of times.</li>
+     <li>The advantase of loop are it's code reasability , save our time and it's traversing.</li>
+   </ol>
+</div><br>
+<button id="bq7"> Show/Hide </button>
+<script>
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq7").click(function(){
+  $("#da7").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.8 Type of <b>loops </b> in C programming language ?  </p>
+</div>
+<h4>Ans.</h4>
+<div id="da8" class="clsda">
+  <h3> Type of loops in C :</h3>
+   <ol>
+     <li><h4>While Loop :</h4><p><b>(I) Repeats</b> a statement or group of statements while a given condition 
+      is true. It tests the condition before executing the loop body<br><b>(II) While loop</b> is mainly consisted of
+       three statements – initialization expression, test expression, update expression. The syntax of the three loops
+       – For, while and do while mainly differs on the placement of these three</p></li>
+     <li><h4>For Loop :</h4><p><b>(I) Executes</b>  a sequence of statements multiple times and abbreviates the code that 
+      manages the loop variable.<br><b>(II)The initialization</b> statement is executed only once.
+      Then, the test expression is evaluated. If the test expression is evaluated to false, the for loop is terminated.<br>
+      <b>(III)However, if </b>the test expression is evaluated to true, statements inside the body of for loop are executed, and the update expression is updated.
+      Again the test expression is evaluated.</li>
+      <li><h4> Do..While Loop :</h4><p><b>(I)Do..While Loop</b>  is more like a while statement, except that it tests the condition at the end of the 
+        loop body.<br><b>(II)The basic format</b> of while loop is as follows:<br>
+        do {<br>
+           statements<br>
+       } <br>while (expression);</p></li>
+       <li><h4>Nested Loop :</h4><p><b>(I) We can</b> use one or more loops inside any other while, for, or do..while loop.<br><b></p></li>
+   </ol>
+</div><br>
+<button id="bq8"> Show/Hide </button><br><br>
+<div class="clsdi">
+  <h3>Important :</h3>
+  <h4>Why use for loop :</h4>
+  <p>1. The for loop is used to a part of the program several times.</p>
+  <p>2. It is used to traverse the data structures like the arrays and linked list.</p>
+  <p>3. It has a little different syntax than while and do while loops .</p>
+   <h5>Syntax :</h5>
+   <p> for(exp1;exp2;exp3)<br>
+     {<br>
+       code to be run<br>
+     }<br>
+   </p>
+</div>
+<script>
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq8").click(function(){
+  $("#da8").slideToggle('slow');
+});
+});
+</script>
+<div id="dq">
+  <p id="pq"> Q.9 What is <b>goto statement</b> in C ? </p>
+</div>
+<h4>Ans.</h4>
+<div id="da9" class="clsda">
+  <h3>goto statement in C :</h3>
+   <ol>
+     <li><b>The goto statement</b> is a jump statement which is sometimes also referred to us unconditional jump statement.</li>
+     <li><b>The goto statement</b>can be used jump from anywhere to anywhere within a function.</li>
+     <li>It used to transfer program control to a predefined lable .</li>
+     <li>Its use to avoided since it causes confusion for the fellow programmers in understanding the code.</li>
+     <li><b> goto statement</b> is preferable when we need to break multiple loops using a single statement at the same time.</li>
+   </ol>
+</div><br>
+<button id="bq9"> Show/Hide </button>
+<script>
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("#bq9").click(function(){
+  $("#da9").slideToggle('slow');
+});
+});
+</script>
+ </body>
+</html>
